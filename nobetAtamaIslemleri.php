@@ -10,7 +10,7 @@ include_once ("header.php");
         <div class="graphs">
             <h2 class="text-center">NÖBET ATAMA İŞLEMLERİ</h2>
 
-
+            <form method="get">
 
 
             <div class="panel panel-warning" data-widget="{&quot;draggable&quot;: &quot;false&quot;}" data-widget-static="">
@@ -52,9 +52,9 @@ include_once ("header.php");
                             <td class="badge-danger"></td>
                             <td class="bg-green">
                                 <div class="form-group">
-                                    <select id="lunch" class="selectpicker" data-live-search="true" title="Seçiniz." data-width="100%">
-                                        <option>Ahmet Yurdakul</option>
-                                        <option>Şevki Kocadağ</option>
+                                    <select id="lunch" class="selectpicker" data-live-search="true" title="Seçiniz." data-width="100%" name="deneme">
+                                        <option value="SBK">Ahmet Yurdakul</option>
+                                        <option value="SBK">Şevki Kocadağ</option>
                                         <option selected>Yasin Mısır</option>
                                     </select>
                                 </div>
@@ -1801,6 +1801,24 @@ include_once ("header.php");
                     </table>
                 </div>
             </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input type="button" value="VAZGEÇ" class="btn btn-warng1 btn-lg btn-block"/>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+
+                                <input type="submit" value="KAYDET" class="btn btn-primary btn-lg btn-block"/>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
         <!-- end graphs -->
         </div>
     </div>

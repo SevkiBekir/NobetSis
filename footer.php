@@ -1,7 +1,7 @@
 
     <!--footer section start-->
     <footer>
-        <p>&copy 2017 NöbetSis | <a href="http://cc.metu.edu.tr">ODTÜ BİDB</a> Tarafından Geliştirilmiştir | Template: w3Layouts</p>
+        <p>&copy 2017 NöbetSis | <a href="http://cc.metu.edu.tr">ODTÜ BİDB</a> Tarafından Geliştirilmiştir</p>
     </footer>
     <!--footer section end-->
     </section>

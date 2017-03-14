@@ -39,7 +39,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 </head>
 
- <body class="sticky-header left-side-collapsed"  onload="initMap()">
+ <body class="sticky-header left-side-collapsed" >
     <section>
     <!-- left side start-->
 		<div class="left-side sticky-left-side">
@@ -59,21 +59,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul class="nav nav-pills nav-stacked custom-nav">
 						<li><a href="nobetBorsasi.php"><i class="lnr lnr-power-switch"></i><span>Nöbet Borsası</span></a></li>
                         <li><a href="donemNobetleri.php"><i class="lnr lnr-power-switch"></i><span>Dönem Nöbetleri</span></a></li>
-                        <li><a href="index.php"><i class="lnr lnr-power-switch"></i><span>Nöbet Bırakma</span></a></li>
+                        <li><a href="nobetBirakma.php"><i class="lnr lnr-power-switch"></i><span>Nöbet Bırakma</span></a></li>
 						<li class="menu-list">
 							<a href="#"><i class="lnr lnr-cog"></i>
 								<span>Sorumlu İşlemleri</span></a>
 								<ul class="sub-menu-list">
 									<li><a href="nobetAtamaIslemleri.php">Nöbet Atama İşlemleri</a> </li>
-									<li><a href="#">Ceza İşlemleri</a></li>
+									<li><a href="cezaIslemleri.php">Ceza İşlemleri</a></li>
 								</ul>
 						</li>
                         <li class="menu-list">
                             <a href="#"><i class="lnr lnr-cog"></i>
                                 <span>Yönetici İşlemleri</span></a>
                             <ul class="sub-menu-list">
-                                <li><a href="#">Salon Nöbet Ayarları</a> </li>
-                                <li><a href="#">Duyuru İşlemleri</a> </li>
+                                <li><a href="salonNobetAyarlari.php">Salon Nöbet Ayarları</a> </li>
+                                <li><a href="duyuruIslemleri.php">Duyuru İşlemleri</a> </li>
                             </ul>
                         </li>
 
