@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteCond $1 !^(index\.php|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php [L,QSA]
+
+ErrorDocument 404 "<H1>Page not found</H1>"
