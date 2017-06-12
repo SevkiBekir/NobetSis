@@ -60,6 +60,9 @@ $route['translate_uri_dashes'] = FALSE;
 $route["admin/announcementOperations"] = "admin/announcementOperations";
 $route["admin/announcementOperations/add"] = "admin/announcementOperations/add";
 $route["admin/announcementOperations/delete"] = "admin/announcementOperations/delete";
+$route["admin/userOperations/"] = "admin/userOperations/";
+$route["admin/userOperations/show/(:any)"] = "admin/userOperations/show/$1";
+$route["admin/userOperations/change/"] = "admin/userOperations/change";
 
 $route["moderator/punishmentOperations"] = "moderator/punishmentOperations";
 $route["moderator/punishmentOperations/add"] = "moderator/punishmentOperations/add";

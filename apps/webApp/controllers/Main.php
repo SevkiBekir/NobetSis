@@ -29,8 +29,7 @@ class main extends CI_Controller {
             redirect("login");
 
 
-        $userTypes = session("userTypes");
-        new dBug( $userTypes);
+        
 
         if($getAllAnnouncements = $this->announcements->getAllAnnouncements()){
             $dummyArray=[];
