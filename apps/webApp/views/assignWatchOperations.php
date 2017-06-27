@@ -28,7 +28,7 @@ include_once("header.php");
     <div id="page-wrapper">
         <div class="graphs">
 
-            <h2 class="text-center">Salon Nöbet Ayarları</h2>
+            <h2 class="text-center">Nöbet Atama İşlemleri</h2>
             <form method="post" action="<?php baseUrl(1,"moderator/assignWatchOperations/save"); ?>">
                 <input type="hidden" name="<?=$this->security->get_csrf_token_name();?>" value="<?=$this->security->get_csrf_hash();?>" style="display: none;"/>
                 <?php
