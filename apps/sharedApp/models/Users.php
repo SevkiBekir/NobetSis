@@ -218,6 +218,8 @@ class users extends BaseModel {
             ->from($table)
             ->join($schemeVar.".userTypes ut","ut.id=u.userTypeId");
 
+        $this->db->order_by("authorizationDegree DESC");
+
         $query=$this->db->get();
 
 

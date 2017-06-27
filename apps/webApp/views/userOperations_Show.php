@@ -28,7 +28,7 @@
     <div id="page-wrapper">
         <div class="graphs">
 
-            <h2 class="text-center">KULLANICI İŞLEMLERİ - Şevki KOCADAĞ</h2>
+            <h2 class="text-center">KULLANICI İŞLEMLERİ - <?php echo $user["firstname"]." ".$user["lastname"]; ?></h2>
 
             <div class="clearfix"></div>
             <div class="activity_box activity_box1" style="margin-top: 1%">

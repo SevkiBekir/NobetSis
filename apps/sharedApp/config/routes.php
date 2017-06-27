@@ -63,9 +63,12 @@ $route["admin/announcementOperations/delete"] = "admin/announcementOperations/de
 $route["admin/userOperations/"] = "admin/userOperations/";
 $route["admin/userOperations/show/(:any)"] = "admin/userOperations/show/$1";
 $route["admin/userOperations/change/"] = "admin/userOperations/change";
+$route["admin/labWatchSettingsOperations/save"] = "admin/labWatchSettingsOperations/save";
+
 
 $route["moderator/punishmentOperations"] = "moderator/punishmentOperations";
 $route["moderator/punishmentOperations/add"] = "moderator/punishmentOperations/add";
+$route["moderator/assignWatchOperations/save"] = "moderator/assignWatchOperations/save";
 
 
 

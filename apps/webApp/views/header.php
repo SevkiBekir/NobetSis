@@ -97,9 +97,9 @@ else {
 
 
 
-                <li><a href="<?php baseUrl(1,"watchExchange") ?>"><i class="lnr lnr-power-switch"></i><span>Nöbet Borsası<span></a></li>
-                <li><a href="<?php baseUrl(1,"termWatches") ?>"><i class="lnr lnr-power-switch"></i><span>Dönem Nöbetleri<span></a></li>
-                <li><a href="<?php baseUrl(1,"quitWatch") ?>"><i class="lnr lnr-power-switch"></i><span>Nöbet Bırakma<span></a></li>
+                <li><a href="<?php baseUrl(1,"watchExchange") ?>"><i class="lnr lnr-store"></i><span>Nöbet Borsası<span></a></li>
+                <li><a href="<?php baseUrl(1,"termWatchOperations") ?>"><i class="lnr lnr-calendar-full"></i><span>Dönem Nöbetleri<span></a></li>
+                <li><a href="<?php baseUrl(1,"quitWatch") ?>"><i class="lnr lnr-cross-circle"></i><span>Nöbet Bırakma<span></a></li>
                 <?php
                 if($userTypes["degree"] == 2 || $userTypes["degree"] == 3 ) {
                     ?>
@@ -120,7 +120,7 @@ else {
                         <a href="#"><i class="lnr lnr-cog"></i>
                             <span>Yönetici İşlemleri</span></a>
                         <ul class="sub-menu-list">
-                            <li><a href="<?php baseUrl(1,"admin/labWatchSettings") ?>">Salon Ayarları</a></li>
+                            <li><a href="<?php baseUrl(1,"admin/labWatchSettingsOperations") ?>">Salon Ayarları</a></li>
                             <li><a href="<?php baseUrl(1,"admin/announcementOperations") ?>">Duyuru Ayarları</a></li>
                             <li><a href="<?php baseUrl(1,"admin/userOperations") ?>">Kullanıcı İşlemleri </a></li>
                         </ul>

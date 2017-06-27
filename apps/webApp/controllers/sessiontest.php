@@ -14,5 +14,10 @@ class sessiontest extends CI_Controller {
 
 	public function index(){
         new dBug(session());
+
+        $prep = url_title("1. Yurt PC Salonu","_");
+        echo $prep;
 	}
+
+
 }

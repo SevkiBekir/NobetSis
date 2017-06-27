@@ -102,7 +102,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
         <!--footer section start-->
         <footer>
-            <p>&copy 2017 NöbetSis | <a href="http://cc.metu.edu.tr">ODTÜ BİDB</a> Tarafından Geliştirilmiştir</p>
+            <p>&copy 2017 NöbetSis v1.0 | <a href="http://cc.metu.edu.tr">ODTÜ BİDB</a> Tarafından Geliştirilmiştir</p>
         </footer>
         <!--footer section end-->
     </section>
