@@ -21,7 +21,7 @@
         <div class="user-panel-top">
             <div class="profile_details_left">
                 <ul class="nofitications-dropdown">
-                    <h2><span>ODTÜ</span> NöbetSis</h2>
+                    <a href="<?=baseUrl(1)?>"> <h2><span>ODTÜ</span> NöbetSis</h2></a>
                     <div class="clearfix"></div>
                 </ul>
             </div>
