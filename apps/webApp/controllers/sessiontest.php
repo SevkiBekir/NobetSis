@@ -13,10 +13,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class sessiontest extends CI_Controller {
 
 	public function index(){
-        new dBug(session());
+	    redirect("main");
+        //new dBug(session());
 
-        $prep = url_title("1. Yurt PC Salonu","_");
-        echo $prep;
+        //$prep = url_title("1. Yurt PC Salonu","_");
+        //echo $prep;
+
+        $str = "temp_1_09-07-2017_0100_-_0600";
+
+
 	}
 
 

@@ -23,6 +23,9 @@ class termWatchOperations extends CI_Controller
     {
 
         // getAllLabWatchSettings
+        $username = session("username");
+        if(!isset($username))
+            redirect("login");
 
         $this->load->model('labWatchSettings');
 
@@ -75,7 +78,6 @@ class termWatchOperations extends CI_Controller
 
             if ($getAllAssigns = $this->assignOperToLab->getAllAssigns()) {
                 $dummyArray = [];
-                $i = 0;
                 foreach ($getAllAssigns as $row) {
 
                     $dummyArray[] = array(
@@ -89,7 +91,7 @@ class termWatchOperations extends CI_Controller
                         'sunday' => explode("-", $row->sunday),
 
                     );
-                    $i++;
+
                 }
 
 
@@ -177,6 +179,9 @@ class termWatchOperations extends CI_Controller
 
 
     }
+
+
+
 
 
 

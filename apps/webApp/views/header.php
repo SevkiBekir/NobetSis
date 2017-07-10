@@ -95,16 +95,21 @@ else {
             <ul class="nav nav-pills nav-stacked custom-nav">
 
 
+                <li class="menu-list">
+                    <a href="#"><i class="lnr lnr-user"></i>
+                        <span>Operator İşlemleri</span></a>
+                    <ul class="sub-menu-list">
+                        <li><a href="<?php baseUrl(1,"watchExchangeOperations") ?>">Nöbet Borsası</a></li>
+                        <li><a href="<?php baseUrl(1,"termWatchOperations") ?>">Dönem Nöbetleri</a></li>
+                        <li><a href="<?php baseUrl(1,"quitWatchOperations") ?>">Nöbet Bırakma</a></li>
+                    </ul>
+                </li>
 
-
-                <li><a href="<?php baseUrl(1,"watchExchange") ?>"><i class="lnr lnr-store"></i><span>Nöbet Borsası<span></a></li>
-                <li><a href="<?php baseUrl(1,"termWatchOperations") ?>"><i class="lnr lnr-calendar-full"></i><span>Dönem Nöbetleri<span></a></li>
-                <li><a href="<?php baseUrl(1,"quitWatch") ?>"><i class="lnr lnr-cross-circle"></i><span>Nöbet Bırakma<span></a></li>
-                <?php
+                 <?php
                 if($userTypes["degree"] == 2 || $userTypes["degree"] == 3 ) {
                     ?>
                     <li class="menu-list">
-                        <a href="#"><i class="lnr lnr-cog"></i>
+                        <a href="#"><i class="lnr lnr-users"></i>
                             <span>Sorumlu İşlemleri</span></a>
                         <ul class="sub-menu-list">
                             <li><a href="<?php baseUrl(1, "moderator/assignWatchOperations") ?>">Nöbet Atama

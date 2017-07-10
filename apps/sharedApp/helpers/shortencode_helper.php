@@ -206,5 +206,38 @@
         echo "<script>window.alert($string);</script>";
     }
 
+    function getDayNameOfSpecialWeek($weekNo,$year){
+
+        $getDate = new DateTime();
+
+
+        for ($i = 1;$i<=7;$i++){
+            $getDate->setISODate($year,$weekNo,$i);
+            $dateArray[] = $getDate->format('d/m/Y');
+
+        }
+
+        return $dateArray;
+    }
+
+    function replaceIt($string, $search, $replace){
+        $new_text = str_replace($search,$replace,$string);
+        return $new_text;
+    }
+
+    function getStringHourToInt($str){
+        if($str == "0900_-_1300")
+            return 0;
+        else if($str == "1300_-_1700")
+            return 1;
+        else if($str == "1700_-_2100")
+            return 2;
+        else if($str == "2100_-_0100")
+            return 3;
+        else if($str == "0100_-_0600")
+            return 4;
+
+    }
+
 
 
